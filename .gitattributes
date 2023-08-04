@@ -1,0 +1,4 @@
+# 修改仓库语言，将这三种都设置为Java，这样GitHub检测的时候就不会显示这三种语言了！
+*.js linguist-language=java
+*.css linguist-language=java
+*.html linguist-language=java
