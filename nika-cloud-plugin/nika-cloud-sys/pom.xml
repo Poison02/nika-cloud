@@ -5,17 +5,16 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.zch</groupId>
-		<artifactId>nika-cloud</artifactId>
+		<artifactId>nika-cloud-plugin</artifactId>
 		<version>1.0</version>
 	</parent>
 
-	<artifactId>nika-cloud-plugin</artifactId>
+	<artifactId>nika-cloud-sys</artifactId>
 	<packaging>pom</packaging>
+	<description>系统功能</description>
 	<modules>
-		<module>nika-cloud-sys</module>
-		<module>nika-cloud-auth</module>
-		<module>nika-cloud-auth/nika-auth-api</module>
-		<module>nika-cloud-auth/nika-auth-core</module>
+		<module>nika-sys-api</module>
+		<module>nika-sys-core</module>
 	</modules>
 
 	<properties>
