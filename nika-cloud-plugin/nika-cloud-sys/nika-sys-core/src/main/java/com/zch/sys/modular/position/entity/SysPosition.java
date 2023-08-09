@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.annotation.FieldStrategy;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.fhs.core.trans.vo.TransPojo;
-import com.zch.pojo.CommonEntity;
+import com.zch.common.pojo.CommonEntity;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
 import lombok.Setter;

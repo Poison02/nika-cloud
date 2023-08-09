@@ -10,7 +10,7 @@ import com.tencentcloudapi.sms.v20210111.models.SendSmsRequest;
 import com.tencentcloudapi.sms.v20210111.models.SendSmsResponse;
 import com.tencentcloudapi.sms.v20210111.models.SendStatus;
 import com.zch.dev.api.DevConfigApi;
-import com.zch.exception.CommonException;
+import com.zch.common.exception.CommonException;
 import lombok.extern.slf4j.Slf4j;
 
 /**

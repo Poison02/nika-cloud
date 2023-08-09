@@ -9,7 +9,7 @@ import com.aliyun.dysmsapi20170525.models.SendSmsResponse;
 import com.aliyun.dysmsapi20170525.models.SendSmsResponseBody;
 import com.aliyun.teaopenapi.models.Config;
 import com.zch.dev.api.DevConfigApi;
-import com.zch.exception.CommonException;
+import com.zch.common.exception.CommonException;
 import lombok.extern.slf4j.Slf4j;
 
 /**

@@ -2,7 +2,7 @@ package com.zch.dev.modular.sse.provider;
 
 import com.zch.dev.api.DevSseApi;
 import com.zch.dev.modular.sse.service.DevSseEmitterService;
-import com.zch.sse.CommonSseParam;
+import com.zch.common.sse.CommonSseParam;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 

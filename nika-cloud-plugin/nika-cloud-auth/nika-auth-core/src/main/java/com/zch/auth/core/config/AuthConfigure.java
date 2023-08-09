@@ -8,7 +8,7 @@ import com.github.xiaoymin.knife4j.spring.extension.OpenApiExtensionResolver;
 import com.zch.auth.core.enums.SaClientTypeEnum;
 import com.zch.auth.core.util.StpClientLoginUserUtil;
 import com.zch.auth.core.util.StpLoginUserUtil;
-import com.zch.pojo.CommonResult;
+import com.zch.common.pojo.CommonResult;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

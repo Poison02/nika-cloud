@@ -4,7 +4,7 @@ import com.github.xiaoymin.knife4j.annotations.ApiOperationSupport;
 import com.github.xiaoymin.knife4j.annotations.ApiSupport;
 import com.zch.dev.modular.monitor.result.DevMonitorServerResult;
 import com.zch.dev.modular.monitor.service.DevMonitorService;
-import com.zch.pojo.CommonResult;
+import com.zch.common.pojo.CommonResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.validation.annotation.Validated;

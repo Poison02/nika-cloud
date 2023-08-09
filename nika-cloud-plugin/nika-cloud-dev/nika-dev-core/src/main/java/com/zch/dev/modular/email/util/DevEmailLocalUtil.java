@@ -6,7 +6,7 @@ import cn.hutool.extra.mail.MailAccount;
 import cn.hutool.extra.mail.MailUtil;
 import cn.hutool.extra.spring.SpringUtil;
 import com.zch.dev.api.DevConfigApi;
-import com.zch.exception.CommonException;
+import com.zch.common.exception.CommonException;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.File;

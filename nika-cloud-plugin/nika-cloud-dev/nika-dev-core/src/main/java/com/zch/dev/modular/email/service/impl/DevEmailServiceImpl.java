@@ -17,10 +17,10 @@ import com.zch.dev.modular.email.service.DevEmailService;
 import com.zch.dev.modular.email.util.DevEmailAliyunUtil;
 import com.zch.dev.modular.email.util.DevEmailLocalUtil;
 import com.zch.dev.modular.email.util.DevEmailTencentUtil;
-import com.zch.enums.CommonSortOrderEnum;
-import com.zch.exception.CommonException;
-import com.zch.page.CommonPageRequest;
-import com.zch.util.CommonEmailUtil;
+import com.zch.common.enums.CommonSortOrderEnum;
+import com.zch.common.exception.CommonException;
+import com.zch.common.page.CommonPageRequest;
+import com.zch.common.util.CommonEmailUtil;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

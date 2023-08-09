@@ -2,8 +2,8 @@ package com.zch.dev.modular.sse.util;
 
 import cn.hutool.core.util.StrUtil;
 import com.zch.dev.modular.sse.enums.DevSseEmitterParameterEnum;
-import com.zch.exception.CommonException;
-import com.zch.pojo.CommonResult;
+import com.zch.common.exception.CommonException;
+import com.zch.common.pojo.CommonResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;

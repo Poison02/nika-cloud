@@ -1,12 +1,7 @@
 package com.zch.dev.modular.email.util;
 
-import cn.hutool.core.bean.BeanUtil;
-import cn.hutool.core.codec.Base64;
-import cn.hutool.core.convert.Convert;
 import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.StrUtil;
 import cn.hutool.extra.spring.SpringUtil;
-import cn.hutool.json.JSONObject;
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.IAcsClient;
 import com.aliyuncs.dm.model.v20151123.BatchSendMailRequest;
@@ -14,15 +9,9 @@ import com.aliyuncs.dm.model.v20151123.SingleSendMailRequest;
 import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.http.MethodType;
 import com.aliyuncs.profile.DefaultProfile;
-import com.tencentcloudapi.common.Credential;
-import com.tencentcloudapi.common.exception.TencentCloudSDKException;
-import com.tencentcloudapi.ses.v20201002.SesClient;
-import com.tencentcloudapi.ses.v20201002.models.*;
 import com.zch.dev.api.DevConfigApi;
-import com.zch.exception.CommonException;
+import com.zch.common.exception.CommonException;
 import lombok.extern.slf4j.Slf4j;
-
-import java.util.List;
 
 /**
  * 腾讯云邮件发送工具类

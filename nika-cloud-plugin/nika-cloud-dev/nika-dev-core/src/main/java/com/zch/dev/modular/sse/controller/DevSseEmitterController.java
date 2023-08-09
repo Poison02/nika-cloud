@@ -3,7 +3,7 @@ package com.zch.dev.modular.sse.controller;
 import com.github.xiaoymin.knife4j.annotations.ApiOperationSupport;
 import com.github.xiaoymin.knife4j.annotations.ApiSupport;
 import com.zch.dev.modular.sse.service.DevSseEmitterService;
-import com.zch.sse.CommonSseParam;
+import com.zch.common.sse.CommonSseParam;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.validation.annotation.Validated;

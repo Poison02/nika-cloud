@@ -3,7 +3,7 @@ package com.zch.auth.core.util;
 import cn.dev33.satoken.stp.StpUtil;
 import cn.hutool.core.collection.CollectionUtil;
 import com.zch.auth.core.pojo.SaBaseLoginUser;
-import com.zch.util.CommonServletUtil;
+import com.zch.common.util.CommonServletUtil;
 
 import java.util.List;
 

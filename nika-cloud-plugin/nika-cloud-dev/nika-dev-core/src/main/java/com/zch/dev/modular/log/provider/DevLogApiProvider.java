@@ -9,7 +9,7 @@ import com.zch.dev.modular.log.entity.DevLog;
 import com.zch.dev.modular.log.enums.DevLogCategoryEnum;
 import com.zch.dev.modular.log.service.DevLogService;
 import com.zch.dev.modular.log.util.DevLogUtil;
-import com.zch.page.CommonPageRequest;
+import com.zch.common.page.CommonPageRequest;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

@@ -18,9 +18,9 @@ import com.zch.dev.modular.dict.enums.DevDictCategoryEnum;
 import com.zch.dev.modular.dict.mapper.DevDictMapper;
 import com.zch.dev.modular.dict.param.*;
 import com.zch.dev.modular.dict.service.DevDictService;
-import com.zch.enums.CommonSortOrderEnum;
-import com.zch.exception.CommonException;
-import com.zch.page.CommonPageRequest;
+import com.zch.common.enums.CommonSortOrderEnum;
+import com.zch.common.exception.CommonException;
+import com.zch.common.page.CommonPageRequest;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Service;
 

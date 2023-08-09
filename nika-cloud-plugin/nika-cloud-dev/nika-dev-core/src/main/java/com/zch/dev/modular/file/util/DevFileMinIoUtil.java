@@ -11,7 +11,7 @@ import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
 import com.zch.dev.api.DevConfigApi;
 import com.zch.dev.modular.file.enums.DevFileBucketAuthEnum;
-import com.zch.exception.CommonException;
+import com.zch.common.exception.CommonException;
 import io.minio.*;
 import io.minio.http.Method;
 import lombok.extern.slf4j.Slf4j;

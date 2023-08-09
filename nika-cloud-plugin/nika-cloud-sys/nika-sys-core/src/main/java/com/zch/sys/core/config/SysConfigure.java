@@ -1,7 +1,7 @@
 package com.zch.sys.core.config;
 
 import com.github.xiaoymin.knife4j.spring.extension.OpenApiExtensionResolver;
-import com.zch.pojo.CommonResult;
+import com.zch.common.pojo.CommonResult;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

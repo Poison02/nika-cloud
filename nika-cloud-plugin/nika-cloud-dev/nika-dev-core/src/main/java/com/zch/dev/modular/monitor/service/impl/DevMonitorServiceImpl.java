@@ -12,7 +12,7 @@ import cn.hutool.system.RuntimeInfo;
 import cn.hutool.system.SystemUtil;
 import com.zch.dev.modular.monitor.result.DevMonitorServerResult;
 import com.zch.dev.modular.monitor.service.DevMonitorService;
-import com.zch.util.CommonNetWorkInfoUtil;
+import com.zch.common.util.CommonNetWorkInfoUtil;
 import org.springframework.stereotype.Service;
 import oshi.SystemInfo;
 import oshi.hardware.CentralProcessor;

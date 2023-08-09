@@ -22,8 +22,8 @@ import com.zch.dev.modular.log.result.DevLogOpPieChartDataResult;
 import com.zch.dev.modular.log.result.DevLogVisLineChartDataResult;
 import com.zch.dev.modular.log.result.DevLogVisPieChartDataResult;
 import com.zch.dev.modular.log.service.DevLogService;
-import com.zch.enums.CommonSortOrderEnum;
-import com.zch.page.CommonPageRequest;
+import com.zch.common.enums.CommonSortOrderEnum;
+import com.zch.common.page.CommonPageRequest;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

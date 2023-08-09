@@ -1,7 +1,7 @@
 package com.zch.dev.modular.sse.service;
 
 
-import com.zch.sse.CommonSseParam;
+import com.zch.common.sse.CommonSseParam;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 
 import java.util.function.Consumer;

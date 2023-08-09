@@ -1,6 +1,6 @@
 package com.zch.dev.modular.config.enums;
 
-import com.zch.exception.CommonException;
+import com.zch.common.exception.CommonException;
 import lombok.Getter;
 
 /**

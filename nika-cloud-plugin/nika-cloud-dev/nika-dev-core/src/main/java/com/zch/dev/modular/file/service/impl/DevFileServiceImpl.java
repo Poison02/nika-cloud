@@ -24,11 +24,11 @@ import com.zch.dev.modular.file.util.DevFileAliyunUtil;
 import com.zch.dev.modular.file.util.DevFileLocalUtil;
 import com.zch.dev.modular.file.util.DevFileMinIoUtil;
 import com.zch.dev.modular.file.util.DevFileTencentUtil;
-import com.zch.exception.CommonException;
-import com.zch.page.CommonPageRequest;
-import com.zch.prop.CommonProperties;
-import com.zch.util.CommonDownloadUtil;
-import com.zch.util.CommonResponseUtil;
+import com.zch.common.exception.CommonException;
+import com.zch.common.page.CommonPageRequest;
+import com.zch.common.prop.CommonProperties;
+import com.zch.common.util.CommonDownloadUtil;
+import com.zch.common.util.CommonResponseUtil;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 

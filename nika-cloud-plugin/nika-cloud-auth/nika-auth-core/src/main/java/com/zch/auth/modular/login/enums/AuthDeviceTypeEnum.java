@@ -1,6 +1,6 @@
 package com.zch.auth.modular.login.enums;
 
-import com.zch.exception.CommonException;
+import com.zch.common.exception.CommonException;
 import lombok.Getter;
 
 /**

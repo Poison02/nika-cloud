@@ -13,7 +13,7 @@ import com.aliyun.oss.model.OSSObject;
 import com.aliyun.oss.model.ObjectMetadata;
 import com.zch.dev.api.DevConfigApi;
 import com.zch.dev.modular.file.enums.DevFileBucketAuthEnum;
-import com.zch.exception.CommonException;
+import com.zch.common.exception.CommonException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.multipart.MultipartFile;
 

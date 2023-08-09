@@ -12,6 +12,8 @@ import java.util.List;
  * @author Zch
  * @date 2023/8/6
  **/
+@Getter
+@Setter
 public abstract class SaBaseClientLoginUser {
 
     /** id */
