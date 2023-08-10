@@ -29,6 +29,11 @@
 			<groupId>cn.dev33</groupId>
 			<artifactId>sa-token-core</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.zch</groupId>
+			<artifactId>nika-dev-api</artifactId>
+			<version>1.0</version>
+		</dependency>
 	</dependencies>
 
 </project>
