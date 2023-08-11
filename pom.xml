@@ -21,6 +21,7 @@
 		<module>nika-cloud-gateway</module>
 		<module>nika-cloud-plugin</module>
         <module>nika-cloud-registry</module>
+        <module>nika-cloud-core</module>
     </modules>
 
 	<properties>

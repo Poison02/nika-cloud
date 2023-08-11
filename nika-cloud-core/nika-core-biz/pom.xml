@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.zch</groupId>
+		<artifactId>nika-cloud-core</artifactId>
+		<version>1.0</version>
+	</parent>
+
+	<artifactId>nika-core-biz</artifactId>
+	<packaging>jar</packaging>
+	<description>核心-业务模块</description>
+
+	<properties>
+		<maven.compiler.source>8</maven.compiler.source>
+		<maven.compiler.target>8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.zch</groupId>
+			<artifactId>nika-cloud-common</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.zch</groupId>
+			<artifactId>nika-auth-core</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.zch</groupId>
+			<artifactId>nika-dev-core</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.zch</groupId>
+			<artifactId>nika-sys-core</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<!-- sa-token -->
+		<dependency>
+			<groupId>cn.dev33</groupId>
+			<artifactId>sa-token-spring-boot-starter</artifactId>
+			<version>${sa.token.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<!-- junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope><exclusions>
+			<exclusion>
+				<artifactId>logback-classic</artifactId>
+				<groupId>ch.qos.logback</groupId>
+			</exclusion>
+		</exclusions>
+		</dependency>
+
+		<!-- dynamic-datasource -->
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>dynamic-datasource-spring-boot-starter</artifactId>
+		</dependency>
+
+		<!-- mysql -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		<!-- sa-token 整合 redis （使用jackson序列化方式） -->
+		<dependency>
+			<groupId>cn.dev33</groupId>
+			<artifactId>sa-token-dao-redis-jackson</artifactId>
+			<version>${sa.token.version}</version>
+		</dependency>
+
+		<!-- Sa-Token插件：权限缓存与业务缓存分离 -->
+		<dependency>
+			<groupId>cn.dev33</groupId>
+			<artifactId>sa-token-alone-redis</artifactId>
+			<version>${sa.token.version}</version>
+		</dependency>
+
+		<!-- Sa-Token 插件：整合SSO -->
+		<dependency>
+			<groupId>cn.dev33</groupId>
+			<artifactId>sa-token-sso</artifactId>
+			<version>${sa.token.version}</version>
+		</dependency>
+		<!-- bootstrap 配置加载 -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bootstrap</artifactId>
+		</dependency>
+
+		<!-- SpringCloud 负载均衡 -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-loadbalancer</artifactId>
+		</dependency>
+
+		<!-- https://blog.csdn.net/Tuine/article/details/122153363 -->
+		<!-- caffeine缓存实现 -->
+		<dependency>
+			<groupId>com.github.ben-manes.caffeine</groupId>
+			<artifactId>caffeine</artifactId>
+		</dependency>
+
+		<!-- nacos 注册中心客户端 -->
+		<dependency>
+			<groupId>com.alibaba.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+		</dependency>
+
+		<!-- nacos 配置中心客户端 -->
+		<dependency>
+			<groupId>com.alibaba.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+		</dependency>
+
+		<!-- 暴露各种指标 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+		<!-- admin -->
+		<dependency>
+			<groupId>de.codecentric</groupId>
+			<artifactId>spring-boot-admin-starter-client</artifactId>
+		</dependency>
+
+		<!-- openfeign -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<finalName>${project.artifactId}</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>${spring.boot.version}</version>
+				<configuration>
+					<includeSystemScope>true</includeSystemScope>
+					<fork>true</fork>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

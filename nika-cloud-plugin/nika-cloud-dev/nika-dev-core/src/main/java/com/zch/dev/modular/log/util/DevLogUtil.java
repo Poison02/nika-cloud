@@ -12,7 +12,7 @@ import com.zch.dev.modular.log.entity.DevLog;
 import com.zch.dev.modular.log.enums.DevLogCategoryEnum;
 import com.zch.dev.modular.log.enums.DevLogExeStatusEnum;
 import com.zch.dev.modular.log.service.DevLogService;
-import com.zch.util.*;
+import com.zch.common.util.*;
 import org.aspectj.lang.JoinPoint;
 
 import javax.servlet.http.HttpServletRequest;

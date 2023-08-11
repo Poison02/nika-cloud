@@ -9,19 +9,12 @@
 		<version>1.0</version>
 	</parent>
 
-	<artifactId>nika-cloud-plugin</artifactId>
+	<artifactId>nika-cloud-core</artifactId>
 	<packaging>pom</packaging>
+	<description>主应用核心模块</description>
 	<modules>
-		<module>nika-cloud-sys</module>
-		<module>nika-cloud-auth</module>
-		<module>nika-cloud-auth/nika-auth-api</module>
-		<module>nika-cloud-auth/nika-auth-core</module>
-        <module>nika-cloud-dev</module>
-		<module>nika-cloud-dev/nika-dev-api</module>
-		<module>nika-cloud-dev/nika-dev-core</module>
-		<module>nika-cloud-auth/nika-auth-feign</module>
-		<module>nika-cloud-dev/nika-dev-feign</module>
-		<module>nika-cloud-sys/nika-sys-feign</module>
+		<module>nika-core-web</module>
+		<module>nika-core-biz</module>
 	</modules>
 
 	<properties>

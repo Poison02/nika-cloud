@@ -5,5 +5,12 @@ package com.zch.common.consts;
  * @author Zch
  * @date 2023/8/5
  **/
-public class FeignConstant {
+public final class FeignConstant {
+
+    /** WEB_APP **/
+    public static final String WEB_APP = "nika-core-web";
+
+    /** BIZ_APP **/
+    public static final String BIZ_APP = "nika-core-biz";
+
 }

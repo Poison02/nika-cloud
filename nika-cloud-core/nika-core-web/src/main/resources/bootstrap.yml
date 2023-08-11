@@ -1,0 +1,16 @@
+# 配置nacos注册中心
+spring:
+  application:
+    name: nika-core-web
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        namespace: nika-cloud-1x-${spring.profiles.active}
+        group: ${spring.profiles.active}
+        prefix: ${spring.application.name}
+        file-extension: yaml
+        username: nacos
+        password: nacos
