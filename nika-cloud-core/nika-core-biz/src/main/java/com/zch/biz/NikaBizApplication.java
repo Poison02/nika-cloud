@@ -1,4 +1,4 @@
-package com.zch.web;
+package com.zch.biz;
 
 import com.zch.common.runner.AppStartupListener;
 import lombok.extern.slf4j.Slf4j;
@@ -17,11 +17,11 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2WebMvc;
  **/
 @SpringBootApplication(scanBasePackages = {"com.zch"})
 @Slf4j
-@EnableSwagger2WebMvc
 @RestController
+@EnableSwagger2WebMvc
 @EnableDiscoveryClient
 @EnableFeignClients(basePackages = "com.zch")
-public class NikaWebApplication {
+public class NikaBizApplication {
 
     /* 解决druid 日志报错：discard long time none received connection:xxx */
     static {
@@ -29,18 +29,18 @@ public class NikaWebApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication application = new SpringApplication(NikaWebApplication.class);
-        application.run(args);
-        log.info(">>> {}", NikaWebApplication.class.getSimpleName().toUpperCase() + "STARTING SUCCESS!!!");
+        SpringApplication springApplication = new SpringApplication(NikaBizApplication.class);
+        springApplication.run(args);
+        log.info(">>> {}", NikaBizApplication.class.getSimpleName().toUpperCase() + " STARTING SUCCESS");
     }
 
     @GetMapping("/")
     public String index() {
-        return "WELCOME TO NIKA-CLOUD!!!";
+        return "WELCOME to NIKA-CLOUD!!!";
     }
 
     @Bean
-    public AppStartupListener appStartupListener() {
+    public AppStartupListener appStartupListener(){
         return new AppStartupListener();
     }
 

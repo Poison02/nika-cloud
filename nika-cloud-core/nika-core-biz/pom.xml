@@ -31,12 +31,27 @@
 		</dependency>
 		<dependency>
 			<groupId>com.zch</groupId>
+			<artifactId>nika-auth-feign</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.zch</groupId>
 			<artifactId>nika-dev-core</artifactId>
 			<version>1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.zch</groupId>
+			<artifactId>nika-dev-feign</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.zch</groupId>
 			<artifactId>nika-sys-core</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.zch</groupId>
+			<artifactId>nika-sys-feign</artifactId>
 			<version>1.0</version>
 		</dependency>
 		<!-- sa-token -->
